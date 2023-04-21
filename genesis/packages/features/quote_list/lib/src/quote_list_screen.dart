@@ -1,3 +1,4 @@
+import 'package:component_library/component_library.dart';
 import 'package:flutter/material.dart';
 
 /// Features: quote_list_screen
@@ -30,8 +31,8 @@ class _QuoteListViewState extends State<QuoteListView> {
               padding: EdgeInsets.symmetric(
                 horizontal: 20,
               ),
-              child: Container(
-                child: Text('Search Bar!'),
+              child: SearchBar(
+                controller: _searchBarController,
               ),
             ),
           ],

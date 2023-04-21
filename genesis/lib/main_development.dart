@@ -1,3 +1,4 @@
+import 'package:component_library/component_library.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_localizations/flutter_localizations.dart';
 import 'package:genesis/bootstrap.dart';
@@ -42,6 +43,7 @@ class _GenesisAppState extends State<GenesisApp> {
         GlobalCupertinoLocalizations.delegate,
         GlobalMaterialLocalizations.delegate,
         AppLocalizations.delegate,
+        ComponentLibraryLocalizations.delegate,
       ],
       routerDelegate: _routerDelegate,
       routeInformationParser: const RoutemasterParser(),

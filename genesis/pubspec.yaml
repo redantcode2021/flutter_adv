@@ -16,6 +16,8 @@ dependencies:
   intl: ^0.17.0
   quote_list: 
     path: packages/features/quote_list
+  component_library:
+    path: packages/component_library
   routemaster: ^1.0.1
 
   # The following adds the Cupertino Icons font to your application.

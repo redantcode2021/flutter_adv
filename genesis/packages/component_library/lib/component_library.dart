@@ -1,4 +1,2 @@
-/// A Very Good Project created by Very Good CLI.
-library component_library;
-
-export 'src/component_library.dart';
+export 'src/l10n/component_library_localizations.dart';
+export 'src/search_bar.dart';
