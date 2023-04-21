@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:genesis/tab_container_screen.dart';
+import 'package:quote_list/quote_list.dart';
 import 'package:routemaster/routemaster.dart';
 
 Map<String, PageBuilder> buildRoutingTable({
@@ -16,11 +17,7 @@ Map<String, PageBuilder> buildRoutingTable({
     _PathConstants.quoteListPath: (route) {
       return const MaterialPage(
         name: 'quotes-list',
-        child: Scaffold(
-          body: Center(
-            child: Text('Page List'),
-          ),
-        ),
+        child: QuoteListScreen(),
       );
     },
     _PathConstants.profileMenuPath: (_) {

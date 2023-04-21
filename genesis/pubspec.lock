@@ -287,6 +287,13 @@ packages:
       url: "https://pub.dartlang.org"
     source: hosted
     version: "2.1.3"
+  quote_list:
+    dependency: "direct main"
+    description:
+      path: "packages/features/quote_list"
+      relative: true
+    source: path
+    version: "0.1.0+1"
   routemaster:
     dependency: "direct main"
     description:
@@ -455,4 +462,4 @@ packages:
     version: "3.1.1"
 sdks:
   dart: ">=2.18.0 <3.0.0"
-  flutter: ">=1.17.0"
+  flutter: ">=3.3.0"
