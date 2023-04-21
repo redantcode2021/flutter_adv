@@ -1,6 +1,6 @@
-import 'package:genesis/app/app.dart';
 import 'package:genesis/bootstrap.dart';
+import 'package:genesis/main_development.dart';
 
 void main() {
-  bootstrap(() => const App());
+  bootstrap(() => const GenesisApp());
 }
