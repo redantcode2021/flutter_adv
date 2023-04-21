@@ -1,0 +1,13 @@
+{
+  "downvoteIconButtonTooltip": "Downvote",
+  "upvoteIconButtonTooltip": "Upvote",
+  "searchBarHintText": "journey",
+  "searchBarLabelText": "Cari",
+  "shareIconButtonTooltip": "Share",
+  "favoriteIconButtonTooltip": "Favorite",
+  "exceptionIndicatorGenericTitle": "Terdapat error pada aplikasi",
+  "exceptionIndicatorTryAgainButton": "Coba Lagi",
+  "exceptionIndicatorGenericMessage": "Error ditemukan.\nSilahkan, check koneksi internet Anda and coba lagi.",
+  "genericErrorSnackbarMessage": "Error ditermukan. Silahkan, check koneksi internet Anda.",
+  "authenticationRequiredErrorSnackbarMessage": "Anda perlu masuk ke aplikasi untuk menjalankan aksi."
+}
