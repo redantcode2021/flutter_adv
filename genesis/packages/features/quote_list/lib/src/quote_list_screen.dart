@@ -28,7 +28,7 @@ class _QuoteListViewState extends State<QuoteListView> {
         body: Column(
           children: [
             Padding(
-              padding: EdgeInsets.symmetric(
+              padding: const EdgeInsets.symmetric(
                 horizontal: 20,
               ),
               child: SearchBar(
